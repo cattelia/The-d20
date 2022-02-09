@@ -1,22 +1,38 @@
 #from main import *
-#from collection import Counter
+from collections import Counter
 '''
 This is to collect the rolls to then derive data from the information.
 '''
 
 
+
 def collect(roll):
-  print("From datastore.collect() " + str(roll))
-  #sides = range(1,11)
-  #num_throws = 1000
-
-  #counter = Counter(random.choices(sides, k=num_throws))
+    print("From datastore.collect() " + str(roll))
 
 
 
+#Initialize list
+alist = []
+count = 0
 
-'''
-#Test call to see if main.py can see datastore.py
-def answer():
-  print("hello from 'datastore.py'")
-'''
+def counter(roll):
+    global count
+    #Read up on namespaces inside of Python
+    alist.append(roll)
+    c = Counter(alist) #sort by most common occurances
+    count += 1
+    #Why can this function see this variable but couldn't see count without global?
+    print(str(c) + " datastore.counter()")
+    print("Count: " + str(count) + '\n')
+    return c #<collections.Counter()>
+
+
+
+'''Testing'''
+#counter(0)
+#counter(11)
+#counter(1)
+#counter(11)
+#counter(11)
+#counter(2)
+#counter(3)

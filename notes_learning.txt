@@ -9,3 +9,41 @@ Stack Overflow:
 Learning Python: https://www.w3schools.com/python/python_lambda.asp
 Learning Pything: https://practice.geeksforgeeks.org/courses/Python-Foundation
 
+
+Read about namespaces in Python
+    Why does:
+        global count
+        count = 0
+        def count():
+        ...  count += 1
+        ...  print(count)
+
+Iterate through collections.Counter(): https://bit.ly/3oCdVi5
+    
+    >>>def counterIterator(): 
+    ...  import collections
+    ...  counter = collections.Counter()
+    ...  counter.update(('u1','u1'))
+    ...  counter.update(('u2','u2'))
+    ...  counter.update(('u2','u1'))
+    ...  for ele in counter:
+    ...    print(ele,counter[ele])
+    >>>counterIterator()
+    u1 3
+    u2 3
+
+Testing through iterations
+    c = counter_test(2)
+    c = counter_test(1)
+    c = counter_test(1)
+    c = counter_test(1)
+    print(c)
+    #print(c[1]) #this is returning how many times 1 showed up. Should be 3
+    for i in c:
+        print("Item " + str(i) + " Item count " + str(c[i]))
+
+
+Random roll alternative:
+    #sides = range(1,11)
+    #num_throws = 1000
+    #counter = Counter(random.choices(sides, k=num_throws))
