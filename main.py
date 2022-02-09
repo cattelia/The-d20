@@ -45,3 +45,4 @@ main()
 #number = get_dice_input(sided_dice) #print(type(number)) #should be <int>
 #roll_dice(number)
 #answer() #function from datastore.py test
+#GIT Test
