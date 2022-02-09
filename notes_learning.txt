@@ -1,0 +1,11 @@
+Stack Overflow:
+  confirm numeric on input: https://bit.ly/3rBoGD9
+    def getInput(sided_dice):
+
+  circular dependency: https://bit.ly/3Li0bTb
+
+  counting : https://bit.ly/3Gw8bfK #Read this~!
+
+Learning Python: https://www.w3schools.com/python/python_lambda.asp
+Learning Pything: https://practice.geeksforgeeks.org/courses/Python-Foundation
+

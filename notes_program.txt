@@ -1,0 +1,39 @@
+
+Python program
+You roll a dX and you want to know the statistics around the probability of rolling each number
+Especially, that d20.
+
+So you roll, show the roll in a GUI form to the player.
+Then using a python library, you start showing the distribution of the rolls in chart form.
+
+Thinking outloud:
+DONE - Need to simulate rolling a randon d20
+
+- Need a way to record how many of each number is rolled and recorded
+
+- Maintain how many rolls there have been so far
+  - Example of 20 rolls
+    - 1 [1] x1
+    - 2
+    - 3 [3] x2
+    - 4 [4] x2
+    - 5 [5] x1
+    - 6
+    - 7
+    - 8
+    - 9 [9] x1
+    - 10 [10] x3
+    - 11 [11] x2
+    - 12 [12] x2
+    - 13 [13] x1
+    - 14
+    - 15 [15] x1
+    - 16 [16] x2
+    - 17
+    - 18 [18] x1
+    - 19 [19] x1
+    - 20
+
+- Figure out how to handle dice input that is <= 0.
+    
+  
