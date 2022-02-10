@@ -1,5 +1,6 @@
 # The-d20
 This is to simulate a random roll of a x-sided die and then visually show the probability of each number being rolled through collected data.
+This program is currently being built inside of Replit.
 
 I am an emerging Data Analyst and programmer and as a start, I have decided to build a program that incorporates DnD and skills I am looking to improve in!
 
